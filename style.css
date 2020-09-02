@@ -1,130 +1,121 @@
 /* import fonts */
-
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Material+Icons&display=swap");
-
 /* body setup */
-
 body {
-    font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 10px;
-    padding-top: 56px;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 10px;
+  padding-top: 56px;
 }
 
-
 /* Open Sans mixin */
-
-
 /* main card container */
-
 main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    background: url("http://all-czech.com/wp-content/uploads/2016/02/knedliki-recept.jpg") center center/cover;
-    /* card */
-    /* new button */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: url("http://all-czech.com/wp-content/uploads/2016/02/knedliki-recept.jpg") center center/cover;
+  /* card */
+  /* new button */
 }
 
 main card {
-    padding: 20px;
-    margin: 20px;
-    width: calc(100% - 40px);
-    max-width: calc(300px - 40px);
-    font-family: "Open Sans", "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-    font-size: 15px;
-    text-align: center;
-    display: block;
-    border-radius: 4px;
-    position: relative;
-    overflow: hidden;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.1);
-    /* top, name and count display */
-    /* top display */
-    /* name display */
-    /* count display */
-    /* graph */
+  padding: 20px;
+  margin: 20px;
+  width: calc(100% - 40px);
+  max-width: calc(300px - 40px);
+  font-family: "Open Sans", "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.1);
+  /* top, name and count display */
+  /* top display */
+  /* name display */
+  /* count display */
+  /* graph */
 }
 
 main card top,
 main card name,
 main card count {
-    display: block;
+  display: block;
 }
 
 main card top {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 main card name {
-    font-size: 2.5em;
-    font-weight: 500;
+  font-size: 2.5em;
+  font-weight: 500;
 }
 
 main card count {
-    font-size: 2em;
-    font-weight: 500;
+  font-size: 2em;
+  font-weight: 500;
 }
 
 main card count label {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 main card graph {
-    z-index: -1;
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
+  z-index: -1;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 main new {
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    background-color: rgba(255, 255, 255, 0.4);
-    color: black;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    margin: 10px;
-    /* button icon */
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 10px;
+  /* button icon */
 }
 
 main new i {
-    font-size: 25px !important;
+  font-size: 25px !important;
 }
-
-
 /*# sourceMappingURL=style.css.map */
